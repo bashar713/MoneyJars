@@ -99,11 +99,15 @@ label{
     width: 0.125em;
     background-color: #fff;
 }
-@keyframes type{
-    to{
-        left:100%
+@keyframes type {
+    from {
+        left: 0;
     }
-} 
+    to {
+        left: 100%;
+        background-color: #00296b;
+    }
+}
 @keyframes stick{
     to{
         background: transparent;
